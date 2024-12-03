@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,22 +8,36 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media_queries.css">
 </head>
+
 <body>
     <main>
-        <section id = "login">
-            <div id ="imagem">
-               ---- foto-----
-
+        <section id="login">
+            <div id="imagem">
+                <img src="imagens/pexels-aditya-bhatia-264152318-29605962.jpg" alt="Imagem_login">
             </div>
-            <div id = "formulario">
+            <div id="formulario">
                 <h1>Login</h1>
-                <p>Seja bem-vindo(a) novamente!Faça login para acessar sua conta e poder fazer as configurações no seu ambiente!</p>
+                <p>Seja bem-vindo(a)!<br>
+                    Faça login para acessar sua conta e poder fazer as configurações no seu ambiente!</p>
                 <form action="login.php" method="get">
-                    
-                </form>
+                        <label for="iemail">
+                        </label>
+                        <div class="input-container"">
+                            <img class="img_user" src="imagens/user.png" alt="icon_user">
+                            <input type="email" name="email" id="iemail"required>
+                        </div>
+                        <label for="isenha"></label>
+                        <div class="input-container"">
+                            <img class="img_key" src="imagens/key.png" alt="icon_chave">
+                            <input type="password" name="senha" id="isenha" minlength="8" required>
+                        </div>
+                        <input id="entrar" type="submit" value="Entrar">
+                        <input id="esqueci_senha" type="button" value="Esqueci a senha🔒">
+
+            </form>
             </div>
         </section>
     </main>
-    
+
 </body>
 </html>

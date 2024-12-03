@@ -1,1 +1,102 @@
 @charset "UTF-08";
+/* Todas as demais mídias*/
+/*Typical Device Breakpoints
+------------------------------
+Pequenas telas = até 600px
+Celular = de 600px até 768px
+Tablet = 768px até 992px
+Desktop = 992px até 1200px
+Grandes telas = acima de 1200px
+*/
+@media screen and (min-width:768px) and (max-width:992px) {
+
+    body {
+        background: linear-gradient(to left, #D926FA, #FA25B5,#9525FA);
+    }
+    div img{
+        width: 300px;
+        height: 400px;
+        margin-top: 100px;
+        margin-left:150px;
+        border-radius: 20px 0px 0px 20px;
+    }
+    #formulario{
+        background-color: white;
+        width: 200px;
+        height: 360px;
+        border-radius: 0px 20px 20px 0px;
+        padding: 20px;
+        margin-right: 50px;
+        margin-top: -400px;
+        margin-left: 450px;
+    }
+    .input-container{
+
+        margin-top: -100px;
+        margin-left: -4px;
+    }
+    div img{   
+        margin-top: 103px;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1200px) {
+    body {
+        background: linear-gradient(to right, #D926FA, #FA25B5,#9525FA);
+    }
+    div img{
+        width: 500px;
+        height: 500px;
+        margin-top: 100px;
+        margin-left:150px;
+        border-radius: 20px 0px 0px 20px;
+    }
+    #formulario{
+        background-color: white;
+        width: 200px;
+        height: 460px;
+        border-radius: 0px 20px 20px 0px;
+        padding: 20px;
+        margin-right: 50px;
+        margin-top: -500px;
+        margin-left: 650px;
+    }
+    .input-container{
+        margin-top: -100px;
+        margin-left: -4px;
+    }
+    div img{   
+        margin-top: 103px;
+    }
+    
+}
+@media screen and (min-width:1200px) {
+    body {
+        background: linear-gradient(to right, #D926FA, #FA25B5,#9525FA);
+    }
+    div img{
+        width: 400px;
+        height: 400px;
+        margin-top: 100px;
+        margin-left:600px;
+        border-radius: 0px 20px 20px 0px;
+    }
+    #formulario{
+        background-color: white;
+        width: 200px;
+        height: 360px;
+        border-radius: 20px 0px 0px 20px;
+        padding: 20px;
+        margin-right: 50px;
+        margin-top: -400px;
+        margin-left: 370px;
+    }
+    .input-container{
+        margin-top: -100px;
+        margin-left: -4px;
+    }
+    div img{   
+        margin-top: 103px;
+    }
+
+    
+}
