@@ -19,15 +19,15 @@ main{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
     background-color: white;
     width: 200px;
-    height: 500px;
+    height: 510px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
     transition:  width 0.3,  height 0.3;
     transition-timing-function: ease;
+    transform: translate(-50%,-50%);
    
 }
 #login img{
@@ -40,4 +40,76 @@ main{
 #formulario{
     display: block;
     padding: 10px;
+}
+#formulario h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#formulario p{
+    font-size: 0.8em;
+}
+.campo{
+    background-color: #6E8C8E;
+    display:block;
+    width:100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    box-shadow: 2px solid rgb(158, 190, 190) ;
+}
+.campo span{
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+.campo input {
+    width: calc(100% - 45px);
+    background-color: #D6E5EA;
+    font-size: 1em;
+    height: 100%;
+    border-radius: 5px;
+    padding: 4px;
+    border: none;
+    transform: translateY(-12px)
+}
+.campo label{
+    display: none;
+}
+form  input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #6E8C8E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+form input[type=submit]:hover{
+    background-color: #3e585a;
+
+}
+.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: 1px solid #72888f;
+    border-radius: 5px;
+    text-decoration:none;
+    padding-top: 10px; 
+    margin-top: -7px;
+}
+.botao:hover{
+    background-color: #3e585a;
+    color: white;
+}
+.botao span {
+    font-size: 0.8em; 
+    color: #171818;
 }
