@@ -3,90 +3,41 @@
     padding: 0%;
     margin: 0%;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 body,html{
-    width: 100%;
-    height: 100%;
+    background-color:#D6E5EA;
+    width: 100vw;
+    height: 100vh;
 }
-body{
-    background-color: rgb(203, 63, 221);
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    width: 200px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
+    transition:  width 0.3,  height 0.3;
+    transition-timing-function: ease;
+   
+}
+#login img{
+    display: block;
+    background: #D6E5EA url(../imagens/pexels-aditya-bhatia-264152318-29605962.jpg) no-repeat;
+    height: 200px;
+    width: 200px;
+   
 }
 #formulario{
-    background-color: white;
-    width: 200px;
-    height: 300px;
-    border-radius: 0px 0px 20px 20px;
-    margin: auto;
-    padding: 20px;
-}
-div img{
     display: block;
-    width: 240px;
-    height: 200px;
-    margin: auto;
-    border-radius: 20px 20px 0px 0px;
-    margin-top: 50px;
-}
-#formulario h1{
-    text-align: center;
-    margin-bottom: 10px;
-}
-#formulario p{
-    font-size: 0.9em;
-    line-height: 18px;
-}
-form{
-    margin-top: 10px;
-}
-input{
-    margin-top: 3px;
-    border-radius: 10px;
-    padding: 5px;
-    background-color: rgb(216, 241, 255);
-    width: 150px;
-    margin-left: 36px;
-    margin-bottom: 3px;
-}
-.input-container{
-    background-color: rgb(185, 48, 167);
-    width: 200px;
-    height: 35px;
-    border-radius: 10px 10px 10px 10px; 
-    margin-top: -47px;
-    margin-left: -4px;
-}
-.input-container input {
-    margin-top: -20px;
-}
-.img_user{
-    display:flex;
-    width: 25px;
-    height: 25px;
-    margin-left: 6px;
-    margin-bottom: -17px;
-}
-.img_key{
-    display:flex;
-    width: 30px;
-    height: 30px;
-    margin-left: 2px;
-    margin-bottom: -22px;
-}
-#entrar{
-    width:200px;
-    background-color: rgb(64, 141, 115);
-    color:white;
-    margin-left: -3px;
-}
-#entrar:hover{
-    background-color: aquamarine;
-}
-#esqueci_senha{
-    width:200px;
-    background-color: white;
-    border: 1px solid aquamarine;
-    margin-left: -3px;
-}
-#esqueci_senha:hover{
-    background-color: aquamarine;
+    padding: 10px;
 }
